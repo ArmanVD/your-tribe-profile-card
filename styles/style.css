@@ -79,13 +79,33 @@ button svg:nth-of-type(2) {
   transition-delay: 0ms;
 }
 
-img {
+.profile-container {
   position: relative;
+  width: 200px;
+  height: 250px; 
+  margin-bottom: 20px;
+}
+
+.background-image {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  height: 50%;
+  background-image: url('path_to_background_image.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50% 50% 0 0; 
+}
+
+.profile-picture {
+  position: relative;
+  z-index: 1;
   top: 2rem;
   width: 10em;
   height: auto;
   border: 5px solid #1e3f5a;
-  border-radius: 10em;
+  border-radius: 50%;
   box-shadow: 0 0 2px 2px #00000033;
   transition: .25s .15s;
 }

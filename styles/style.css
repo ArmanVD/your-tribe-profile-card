@@ -68,7 +68,7 @@ svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #ffffff;
+  stroke: #1e3f5a;
   transition-delay: .25s;
 }
 button svg:nth-of-type(2) {
@@ -83,7 +83,7 @@ img {
   height: auto;
   border: 5px solid #fff;
   border-radius: 10em;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  box-shadow: 0 0 2px 2px #00000033;
   transition: .25s .15s;
 }
 

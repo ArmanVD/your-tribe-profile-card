@@ -82,26 +82,34 @@ button svg:nth-of-type(2) {
 .profile-container {
   position: relative;
   width: 200px;
-  height: 250px; 
+  height: 250px;
   margin-bottom: 20px;
 }
 
 .background-image {
   position: absolute;
-  top: 5px;
-  left: 5px;
-  right: 5px;
-  height: 50%;
-  background-image: url('path_to_background_image.jpg');
-  background-size: cover;
-  background-position: center;
-  border-radius: 50% 50% 0 0; 
+  top: 5px; /* 5px from the top of the card */
+  left: 5px; /* 5px from the left side of the card */
+  right: 5px; /* 5px from the right side of the card */
+  height: 50%; /* Takes up the top half */
+  z-index: 0; /* Behind the profile picture */
+  border-radius: 10% 10% 0 0; /* Rounded top edges */
+  overflow: hidden;
+}
+
+.background-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50% 50% 0 0; /* Matches the background-image container */
 }
 
 .profile-picture {
   position: relative;
-  z-index: 1;
-  top: 2rem;
+  z-index: 1; /* On top of the background image */
+  top: 50%; /* Position it vertically centered in the bottom half */
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 10em;
   height: auto;
   border: 5px solid #1e3f5a;

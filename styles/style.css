@@ -34,12 +34,15 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   justify-content: flex-end;
+  text-align: left;
+  padding-bottom: 10px;
 }
 
 h1 {
-  margin: 2rem 0 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0px;
   color: #1e3f5a;
 }
 
@@ -100,7 +103,7 @@ dl {
   margin-top: -3rem;
   margin-bottom: 0;
   padding: 5rem 0 3rem;
-  text-align: center;
+  text-align: left;
   background: #f1f0e2;
 }
 
@@ -131,15 +134,16 @@ dd:nth-of-type(2){
 }
 
 p { 
-  margin: 0;
+  margin: 1px;
 }
 
 article > p {
   width: 100%;
   margin-top: 0;
+  padding-bottom: 5px;
   padding: 3rem 2rem;
   border-radius: 0 0 1rem 1rem;
-  text-align: center;
+  text-align: left;
   background: #f1f0e2;
 }
 

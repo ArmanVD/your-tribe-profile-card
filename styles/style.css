@@ -68,7 +68,7 @@ svg {
   position: absolute;
   top: calc(1.25rem - 12px);
   left: calc(1.25rem - 12px);
-  stroke: #ffffff;
+  stroke: #f1f0e2;
   transition-delay: .25s;
 }
 button svg:nth-of-type(2) {

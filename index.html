@@ -8,38 +8,77 @@
   </head>
   <body>
     
-    <article>
+    <div class="card js-card">
 
-      <header> 
-        <img 
-        src="assets/bg.jpg" class="bg">
+      <div class="card__wrapper">
+
+        <article class="card__side is-active">
+
+          <header> 
+            <img 
+            src="assets/bg.jpg" class="bg">
       
 
-        <img
-        src="assets/Arman.jpeg" alt"" class="pfp">
+            <img
+            src="assets/Arman.jpeg" alt"" class="pfp">
 
-      </header>
+        </header>
 
-      <h1> Arman Voogd </h1>
+          <h1> Arman Voogd </h1>
       
-      <h2> Student Frontend Design and Development </h2>
+          <h2> Student Frontend Design and Development </h2>
 
-      <div> 
-        <p> Persian Quisine = GOAT 
+          <div> 
+            <p> Persian Quisine = GOAT 
 
-          <br> 
+             <br> 
 
-          Dit is een test om te kijken of ik al wat kan coderen
+              Dit is een test om te kijken of ik al wat kan coderen
 
-        </p>
+          </p>
 
-        <button type="button">Turn me</button>
+          <button id="btn" class="btn btn--blue">Flip card</button>
 
-      </div>
+         </div>
 
-    </article>
+        </article>
+
+        <article class="card__side card__side--back">
+          <header> 
+          <img 
+           src="assets/bg.jpg" class="bg">
+      
+
+          <img
+            src="assets/Arman.jpeg" alt"" class="pfp">
+
+        </header>
+
+          <h1> Arman Voogd </h1>
+      
+          <h2> Student Frontend Design and Development </h2>
+
+         <div> 
+          <p> Persian Quisine = GOAT 
+
+              <br> 
+
+             Dit is een test om te kijken of ik al wat kan coderen
+
+            </p>
+
+            <button id="btn" class="btn btn--blue">Flip card</button>
+
+          </div>
+
+        </article>
+
+    </div>
+
+    </div>
 
     <script src="scripts/script.js"></script>
+
     
   </body>
 </html>

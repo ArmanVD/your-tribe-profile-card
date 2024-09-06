@@ -16,8 +16,8 @@ body {
 }
 
 .card {
-  width: 350px;
-  height: 350px;
+  width: 500px;
+  height: 500px;
   position: relative;
   transform-style: preserve-3d;
   transition: 1s ease;
@@ -49,7 +49,7 @@ body {
 }
 
 .card-cont:hover .card { 
-  transform: perspective(400px) rotateY(180deg);
+  transform: perspective(500px) rotateY(180deg);
 }
 
 .bg {
